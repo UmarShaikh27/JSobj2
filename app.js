@@ -418,3 +418,134 @@
 // else{alert("Incorrect info provided")}
 
 
+// Chapter 14
+// Question 1
+// var stdNames = [];
+//Question 2 3 4 5 6
+// var x = ["apple","mango","grapes","bananas"];
+// var y = [1,2,3,4,5,6];
+// var z = [true];
+// var a = ["apple",true,3,null];
+
+//QUESTION7
+// var availQf = ["HSC" , "SSC", "BCS" ,"MA" ,"CA", "ACCA"];
+// for(var a = 0 ; a < availQf.length ;a++){
+//     document.write(availQf[a]+"<br>")
+// };
+
+//QUESTION 8
+// var totalMarks = 500;
+// var stdNames = ["Michael","John","Tony"];
+// var stdMarks = [329,230,480];
+// for(a=0 ; a<stdMarks.length ; a++){
+//     document.write("Score of "+ stdNames[a] +" is "+ stdMarks[a] + ". Percentage: " + stdMarks[a]/totalMarks*100 + "%<br>")
+// };
+
+//QUESTION 9
+// var colours = ["Blue" , "Orange" , "Yellow" , "Red"];
+// alert(colours)
+// var x = prompt("Colour one");
+// colours.unshift(x);
+// alert("Updated array 1 \n" + colours);
+
+// var y = prompt("Colour two");
+// colours.push(y);
+// alert("Updated array 2 \n"+colours);
+
+// colours.unshift("Lime","Grey");
+// alert("Updated array 3 \n"+colours);
+
+// colours.pop()
+// alert("Updated array 4 \n"+colours);
+
+// var ind = +prompt("Index");
+// var col = prompt("Colour name");
+// colours.splice(ind ,0 ,col);
+// alert("Updated array 5 \n"+colours);
+
+// var ind2 = +prompt("Index deletion");
+// var col2 = +prompt("Number of colours");
+// colours.splice(ind2,col2);
+// alert("Updated array 6 \n"+colours);
+
+
+//QUESTION 10
+// var stdScore = [320,480,230,120,12];
+// document.write("Scores of students " + stdScore + "<br>");
+// stdScore.sort(function(a,b){return a-b})
+// document.write("Updated scores of students " + stdScore);
+
+//QUESTION 11
+// var cities = ["karachi","lahore","islamabad","quetta","peshawar"];
+// var selectedCities = cities.slice(2,4);
+// document.write(selectedCities);
+
+//QUESTION 12
+// var arr = ["This","is","my","cat"];
+// document.write(arr.join(" "));
+
+//QUESTION 13
+// var dev = ["keyboard","mouse","printer","monitor"];
+// for(a=0;a<dev.length;a++){
+//     document.write("Out: <br>" + dev[a] + "<br>")
+// }
+
+// QUESTION 14
+// var dev = ["keyboard","mouse","printer","monitor"];
+// for(a=3;a>=0;a--){
+//     document.write("Out: <br>" + dev[a] + "<br>")
+// }
+
+//QUESTION 15
+
+
+
+
+//ARRAYS AND LOOP
+
+//QUESTION 3
+// for(a=1;a<=10;a++){
+//     document.write(a + "<br>")
+// }
+
+//QUESTION 4
+// var tableNum = +prompt("Enter a number whose table u want to print");
+// var tableLength = +prompt("Length;");
+// for(a=1;a<=tableLength;a++){
+//     document.write(tableNum + "x" + a + "=" + tableNum*a + "<br>")
+// }
+
+//QUESTION 5
+// var fruits = ["apple","banana","mango","strawberry","orange"];
+// for(a=0;a<fruits.length;a++){
+//     document.write(fruits[a] + "<br>")
+// }
+
+//QUESTION 6
+// document.write("Counting: ")
+// for(a=1;a<=15;a++){
+//     document.write( + a +" ")
+// }
+// document.write(" <br> Reverse Counting: ")
+// for(a=15;a>=1;a--){
+//     document.write( + a +" ")
+// }
+
+//QUESTION 7
+// var stuff = ["cake","apple pie","cookie","chips","patties"];
+// var flag = true;
+// var ask = prompt("Welcome! what would u like to order");
+// for(a=0;a<stuff.length;a++){
+//     if(ask === stuff[a]){
+//         alert(stuff[a] + " is available at index " + a + " in our bakery")
+//         flag = false
+//     }
+// }
+
+// if(flag = true){
+//     alert(ask + " is not available in our bakery")
+// }
+
+
+
+
