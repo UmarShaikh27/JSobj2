@@ -309,6 +309,38 @@
 //     document.write("accepltable")
 // }
 
+//QUESTION 6
+// var marksOne = +prompt("Marks in first subject");
+// var marksTwo = +prompt("Marks in second subject");
+// var marksThree = +prompt("Marks in third subject");
+// var total = +prompt("Total marks")
+// var obt = marksTwo+marksThree+marksOne
+// var per = obt/total*100 
+// var grade
+// var rem
+// if(per>=80 && per <= 100){
+//     grade = "A"
+//     rem = "Excellent"
+// }
+// else if(per>=70 && per < 80){
+//     grade = "B"
+//     rem = "Good"
+// }
+// else if(per>=60 && per < 70){
+//     grade = "C"
+//     rem = "You need to improve"
+// }
+// else if(per > 60){
+//     grade = "Fail"
+//     rem = "Sorry"
+// }
+// else{alert("Wrong info")}
+// document.write("Total marks = " + total + "<br>");
+// document.write("Marks obtained = " + obt + "<br>");
+// document.write("Percentage = " + per +"%" + "<br>" );
+// document.write("Grade = " + grade + "<br>")
+// document.write("Remarks = " + rem + "<br>")
+
 // QUESTION 7
 // var x = 7;
 // var b = +prompt("Guess the number");
@@ -318,6 +350,26 @@
 // else if(b===1 || 2 || 3 || 4 || 5 || 9 || 10 ){
 //     alert("Wrong answer")
 // }
+
+//QUESTION 8
+// var ask = +prompt("Enter a number");
+// if(ask%3 == 0){
+//     document.write("Divisible")
+// }
+// else if(ask%3 != 0){
+//     document.write("Not Divisible")
+// }
+// else{document.write("Enter correct info")}
+
+// QUESTION 9
+// var ask = +prompt("Enter a number");
+// if(ask%2 == 0){
+//     document.write("Even")
+// }
+// else if(ask%2 != 0){
+//     document.write("Odd")
+// }
+// else{document.write("Enter correct info")}
 
 //QUESTION 11
 // var num1 = +prompt("First number");
@@ -343,6 +395,7 @@
 
 
 // CHAPTER 12-13
+
 // QUESTION 2
 // var num1 = +prompt("First number")
 // var num2 = +prompt("Second number")
@@ -418,7 +471,11 @@
 // else{alert("Incorrect info provided")}
 
 
+
+
+
 // Chapter 14
+
 // Question 1
 // var stdNames = [];
 //Question 2 3 4 5 6
@@ -499,9 +556,13 @@
 //QUESTION 15
 
 
-
-
 //ARRAYS AND LOOP
+
+//QUESTION 1
+// var x = [[]];
+
+//QUESTION 2
+// var x = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
 
 //QUESTION 3
 // for(a=1;a<=10;a++){
@@ -546,6 +607,32 @@
 //     alert(ask + " is not available in our bakery")
 // }
 
+//QUESTION 8
+// var num = [24,53,78,91,12];
+// var req = 0
+// for(var a = 0 ; a<num.length;a++){
+//     if(num[a]>req){
+//         req = num[a]
+//     }
+   
+// }
+// document.write("Array items = " + num + "<br>")
+// document.write("Largest number = " + req)
+
+//QUESTION 9
+// var num = [24,53,78,91,12];
+// var req = 91
+// for(var a = 0 ; a<num.length ;a++){
+//     if(num[a]<req){
+//         req = num[a]
+//     }
+   
+// }
+// document.write("Array items = " + num + "<br>")
+// document.write("Smallest number = " + req)
 
 
-
+//QUESTION 10
+// for(var a = 1; a <= 20; a++){
+//     document.write(5*a + " ")
+// }
