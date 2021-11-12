@@ -636,3 +636,166 @@
 // for(var a = 1; a <= 20; a++){
 //     document.write(5*a + " ")
 // }
+
+
+//CHAPTER 21-25
+
+//QUESTION 1
+// var firstName = prompt("Enter your first name")
+// var lastName = prompt("Enter your last name")
+// alert("Welcome " + firstName +" " + lastName);
+
+//QUESTION 2
+// var phone = prompt("My favourite phone is : ")
+// alert(phone.length)
+
+//QUESTION 3
+// var string  = "Pakistani";
+// document.write("String =" + string + "<br> Index of letter n = " + string.indexOf("n"))
+
+//QUESTION 4
+// var string = "Hello World"
+// document.write("String = "+string+"<br>Last index of l = " + string.lastIndexOf("l"))
+
+// //QUESTION 5
+//  var string  = "Pakistani";
+//  document.write("String =" + string + "<br>Character at index 3  = " + string[3]);
+
+//QUESTION 6
+//  var firstName = prompt("Enter your first name")
+//  var lastName = prompt("Enter your last name")
+//  var fullName = firstName.concat(" " +lastName)
+//  alert(fullName)
+
+//QUESTION 7
+// var city = "Hyderabad"
+// document.write("City = " + city + "<br>")
+// document.write("After updating = " +city.replace("Hyder","Islam"))
+
+//QUESTION 8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write(message.replace(/and/g,"&"))
+
+// //QUESTION 9
+// var num = "472";
+// document.write(Number(num)
+
+//QUESTION 10
+// var inp = prompt("enter input")
+// alert(inp.toUpperCase())
+
+//QUESTION 11
+// var userinp = prompt("Enter Input");
+// alert(userinp[0].toUpperCase() + userinp.slice(1).toLowerCase())
+
+// //QUESTION 12
+// var num = 36.67
+// document.write("Value = " + num + "<br>Result = " + num.toString().replace(".",""))
+
+//QUESTION 13
+// var names = prompt("Enter your username")
+// var exclude = "@,!."
+// for(var a = 0;a<names.length;a++){
+//     if(names[a] === exclude[0] || names[a] === exclude[1] || names[a] === exclude[2] || names[a] === exclude[3]){
+//         alert("invalid")
+//     }
+// }
+
+//QUESTION 14
+
+// var arr = ["cake" , "applepie" , "cookie" , "chips" , "patties"];
+// var user = prompt("What do u wanna order").toLowerCase();
+// var flag = true
+// for(var a = 0;a<arr.length;a++){
+//     if(user === arr[a]){
+//         alert(user + " is available at index " + a + " in our bakery")
+//         flag = false
+//     }
+// }
+// if(flag=true){
+//     alert(user + " is not available at our bakery")
+// }
+
+
+//QUESTION 15
+
+
+
+
+
+//QUESTION 16
+// var uni = "University of Karachi";
+// var arruni = uni.split("");
+// for(var a = 0; a<arruni.length; a++){
+//     document.write(arruni[a] + "<br>")
+// }
+
+// //QUESTION 17
+// var userInp = prompt("Enter input");
+// alert("User input = " + userInp + "\n Last character of input = " + userInp.slice(-1,));
+
+//QUESTION 18
+// var para = "The quick brown fox jumps over the lazy dog".toLowerCase();
+// var occurrences = para.match(/the/g).length
+// alert("Text = " + para + "\n Number of occurences of word the = " + occurrences);
+
+//CHAPTER 26-30
+
+//QUESTION 1
+// var numInp = +prompt("Enter a positive integer");
+// var xd = numInp.toString().match(/./).length
+// if(numInp > 0 && xd == 1 ){
+//     document.write("Number : " + numInp + "<br>");
+//     document.write("Rounded off value : " + Math.round(numInp) + "<br>")
+//     document.write("Floor value : " + Math.floor(numInp) + "<br>")
+//     document.write("Ceil value: " + Math.ceil(numInp) + "<br>")
+// }
+// else{
+//     alert("Enter a positive integer")
+// }
+
+//QUESTION 2
+// var numInp = +prompt("Enter a negative integer");
+// if(numInp < 0  ){
+//     document.write("Number : " + numInp + "<br>");
+//     document.write("Rounded off value : " + Math.round(numInp) + "<br>")
+//     document.write("Floor value : " + Math.floor(numInp) + "<br>")
+//     document.write("Ceil value: " + Math.ceil(numInp) + "<br>")
+// }
+// else{
+//     alert("Enter a NEGATIVE integer")
+// }
+
+
+//QUESTION 3
+// var num = +prompt("Enter a number")
+// alert(Math.abs(num))
+
+//QUESTION 4
+// var num = Math.floor(Math.random()*6+1);
+// document.write("Random dice value = "+num)
+
+//QUESTION 5
+// var num = Math.floor(Math.random()*2+1);
+// if(num == 1){
+//     document.write("Random coin value = tails")
+// }
+// else{
+//     document.write("Random coin value = heads")
+// }
+
+// QUESTION 6
+
+// var num = Math.floor(Math.random()*100+1);
+// document.write("Random dice value = "+num)
+
+//QUESTION 7
+
+
+//QUESTION 8
+// var num = Math.floor(Math.random()*10+1);
+// var anyth = +prompt("Enter a number")
+// if(num == anyth){
+//     alert("Congrats")
+// }
+// else{alert("Try again")}
