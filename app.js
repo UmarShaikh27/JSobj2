@@ -799,3 +799,89 @@
 //     alert("Congrats")
 // }
 // else{alert("Try again")}
+
+
+//CHAPTER 31-34
+//QUESTION 1
+
+// var x = new Date();
+// document.write(x);
+
+// QUESTION 2
+// var x = new Date()
+// alert("Current month " + x.toDateString().slice(4,7))
+
+// //QUESTION 3
+// var x = new Date();
+// alert("Current day " + x.toDateString().slice(0,3))
+
+//QUESTION 4
+// var x = new Date();
+// var y = x.toDateString().slice(0,3);
+// if(y === "Sat" || y === "Sun"){
+//     alert("Its fun day")
+// }
+
+//QUESTION 5
+// var x = new Date();
+// var y = x.toLocaleDateString().slice(3,5);
+// if(y<16){
+//     alert("First fifteen days of the month")
+// }
+// else{alert("Last days of the month")};
+
+// //QUESTION 6
+// var x = new Date();
+// var y = x.getTime();
+// document.write("Current Dat : "+x + "<br> Miliseconds since January 1 1970" + y + "<br> Miliseconds since January 1 1970" + y/1000);
+
+//QUESTION 7
+// var x = new Date();
+// var y = x.getHours();
+// if(y>12){
+//     alert("ITS PM")
+// }
+// else{alert("ITS AM")}
+
+// QUESTION 8
+// var x = new Date();
+// x.setFullYear(2020)
+// x.setDate(30)
+// x.setMonth(11)
+// document.write(x)
+
+//QUESTION 9
+// var currentDate = new Date();
+// var ramadan = new Date("June 18, 2015")
+// var msCurrent = currentDate.getTime();
+// var msramadan = ramadan.getTime();
+// var msdiff = msCurrent - msramadan;
+// document.write(Math.floor( msdiff/(1000*60*60*24)));
+
+// //QUESTION 10
+// var x = new Date();
+// var y = new Date(2015);
+// var msCurrent = x.getTime();
+// var msFifteen = y.getTime();
+// var diff = msCurrent - msFifteen;
+// document.write(Math.floor(diff/1000)+" seconds have passed since the beginning of 2015");
+
+//QUESTION 11
+
+// var x = new Date();
+// var y = new Date();
+// y.setHours(18)
+// document.write("Current Date: " + x + "<br> One hour ago it was : " + y)
+
+//QUESTION 12
+// var x = new Date();
+// var y = new Date();
+// y.setFullYear(2021-100)
+// alert("Current Date : " + x + "100 years back : " + y )
+
+//QUESTION 13
+// var x = new Date();
+// var y = +prompt("Enter your age")
+// alert("Your age is " + y + "<br>Your birth year is " + y+x.getFullYear )
+
+//QUESTION 14
