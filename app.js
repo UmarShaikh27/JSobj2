@@ -884,4 +884,130 @@
 // var y = +prompt("Enter your age")
 // alert("Your age is " + y + "<br>Your birth year is " + y+x.getFullYear )
 
-//QUESTION 14
+
+
+
+
+
+
+//CHAPTER 35-38
+
+//QUESTION 1
+// function theDate(){
+//     var x = new Date()
+//     document.write(x)
+
+// }
+// theDate()
+
+
+//QUESTION 2
+// function greet(){
+//     firstName = prompt("First name")
+//     lastName = prompt("Last name")
+//     alert("Hello "+firstName+" " +lastName)
+
+// }
+// greet()
+
+//QUESTION 3
+// function sum(){
+//     var q = +prompt("num 1")
+//     var w = +prompt("num 2")
+//     alert(q+w)
+// }
+// sum()
+
+// QUESION 4
+// function calc(num1,num2,x){
+//     if(x =="+"){
+//         return num1 + num2
+//     }
+//     else if(x=="-"){
+//         return num1 - num2
+//     }
+//     else if(x=="*"){
+//         return num1*num2
+//     }
+//     else if(x=="/"){
+//         return num1/num2
+//     }
+// }
+// var abcd = calc(50,10,"*")
+// document.write(abcd)
+
+// //QUESTION 5
+// function anyth(arg){
+//     return arg * arg
+// }
+// var x = anyth(7)
+// document.write(x)
+
+//QUESTION 6
+
+
+
+
+//QUESTION 7
+// function count(){
+//     var x = +prompt("num 1")
+//     var y = +prompt("num 2")
+//     for(a=x;a<=y;a++){
+//         var n = document.write( a+"<br>")
+//     }
+//     return n
+// }
+// count()
+
+//QUESTION 8
+
+
+
+
+
+
+
+
+
+//QUESTION 9
+// function area(width,height){
+//     var a = width*height
+//     return a
+
+// }
+// var height = 40 
+// document.write(area(2,height))
+
+//QUESTION 10
+
+
+
+
+
+
+//QUESTION 11
+// function cap(){
+    
+//     var a = prompt("")
+//     var b = a[0].toUpperCase() + a.slice(1).toLowerCase()
+//     document.write(b)
+// }
+// cap()
+
+
+//QUESTION 13
+
+
+
+// //QUESTION 14
+// function calcCircumference(rad){
+//     var a = 2*3.14*rad
+//     return a
+// }
+// document.write(calcCircumference(3))
+//  function calcArea(radius){
+//      var b = 3.14*radius*radius
+//      return b
+//  }
+// document.write(calcArea(3))
+
