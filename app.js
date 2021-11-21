@@ -614,7 +614,7 @@
 //     if(num[a]>req){
 //         req = num[a]
 //     }
-   
+
 // }
 // document.write("Array items = " + num + "<br>")
 // document.write("Largest number = " + req)
@@ -626,7 +626,7 @@
 //     if(num[a]<req){
 //         req = num[a]
 //     }
-   
+
 // }
 // document.write("Array items = " + num + "<br>")
 // document.write("Smallest number = " + req)
@@ -987,7 +987,7 @@
 
 //QUESTION 11
 // function cap(){
-    
+
 //     var a = prompt("")
 //     var b = a[0].toUpperCase() + a.slice(1).toLowerCase()
 //     document.write(b)
@@ -1010,4 +1010,147 @@
 //      return b
 //  }
 // document.write(calcArea(3))
+
+
+//CHAPTER 38-42
+//QUESTION 1
+
+// function power(a,b){
+//     document.write(Math.pow(a,b))
+// }
+// power(2,5)
+
+//QUESTION 2
+// function leap(){
+//     var num = +prompt("ENTER AN YEAR")
+//     if(num%4 === 0){
+//         alert("LEAP YEAR")
+//     }
+//     else if(num%4 != 0){
+//         alert("NOT A LEAP YEAR")
+//     }
+//     else{
+//         alert("ENTER CORRECT INFO")
+//     }
+// }
+// leap()
+
+
+// //QUESTION 3
+//(way 1)
+
+// function triArea(a,b,c) {
+//     var s = (a + b + c) / 2
+//     var area = s*(s-a)*(s-b)*(s-c)
+//     console.log(area);
+// }
+// triArea(5, 6, 3)
+
+//(way 2)
+
+// function triArea(a,b,c){
+//     function triS(){
+//         var s = (a+b+c)/2
+//         return s
+//     }
+//     var s = triS()
+//     var area = s*(s-a)*(s-b)*(s-c)
+//     console.log(area);
+// }
+// triArea(5,6,3)
+
+
+
+//CHAPTER 43-48
+//QUESTION 1
+// function alt(){
+//     alert("")
+// }
+
+
+//QUESTION 2
+// function func(){
+//     alert("Thanks for purchasing")
+// }
+
+//QUESTION 3
+// function del0(){
+//     var but = document.getElementById("but0")
+//     but.parentElement.style.display = "none"
+// }
+// function del1(){
+//     var but = document.getElementById("but1")
+//     but.parentElement.style.display = "none"
+// }
+// function del2(){
+//     var but = document.getElementById("but2")
+//     but.parentElement.style.display = "none"
+// }
+// function del3(){
+//     var but = document.getElementById("but3")
+//     but.parentElement.style.display = "none"
+// }
+// function del4(){
+//     var but = document.getElementById("but4")
+//     but.parentElement.style.display = "none"
+// }
+
+//QUESTION 4
+// function bulb(x, binary) {
+//     if (binary == 0) {
+//         x.src = "./images/on.gif"
+//     }
+//     else {
+//         x.src = "./images/off.gif"
+//     }
+// }
+
+//QUESTION 5
+// function decfunc(){
+//     var counter = document.getElementById("counter")
+//     counter.innerHTML -= 1
+
+// }
+// function incfunc(){
+//     var counter = document.getElementById("counter")
+//     counter.innerHTML += 1
+// // }
+
+
+//CHAPTER 49-52
+//QUESTION 1
+
+//  function submission(){
+//      var name = document.getElementById("userName")
+//      var pw = document.getElementById("userPW")
+//      var emL = document.getElementById("userEmail")
+//      var numb = document.getElementById("userNumber")
+//      document.write(name.value +"<br>" + pw.value +"<br>" + emL.value +"<br>" + numb.value )
+//  }
+
+//QUESTION 2
+// function clickit(){
+//     var a = "This is half content and this is the full content"
+//     var x = document.getElementById("para")
+//     x.innerHTML = a
+    
+// }
+
+//QUESTION 3
+// var theName = prompt("Enter name")
+// var theClass = prompt("Enter class")
+// var urdu = +prompt("Marks in Urdu")
+// var chem = +prompt("Marks in Chemistry")
+// var phy = +prompt("Marks in Physics")
+// var maths = +prompt("Marks in Maths")
+
+function dun(){
+    document.write
+}
+
+
+
+
+
+
 
